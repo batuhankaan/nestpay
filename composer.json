@@ -1,0 +1,16 @@
+{
+    "name": "massvisiondotnet/nestpay",
+    "description": " Banca Intesa NestPay Interface",
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "php": ">=5.4.0",
+        "kajna/purli": "dev-master"
+    },
+    "minimum-stability" : "dev",
+    "autoload": {
+        "psr-4": {
+            "NestPay\\": "src/NestPay/"
+        }
+    }
+}
